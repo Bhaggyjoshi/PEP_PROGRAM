@@ -22,6 +22,6 @@ public class SpanOfArray {
             }
         }
         System.out.println(max-min);
-
+        sc.close();
     }
 }
