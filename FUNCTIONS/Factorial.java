@@ -12,6 +12,7 @@ public class Factorial {
         int ncr = nf/(nmrf*rf);
 
         System.out.print(ncr);
+        sc.close();
     }
     public static int Fact(int x) {
         int xf = 1;
@@ -20,4 +21,6 @@ public class Factorial {
         }
         return xf;
     }
+    
+
 }
