@@ -46,6 +46,7 @@ public class SumOfTwoArrays {
             }
 
         }
+        sc.close();
         
     }
 }
