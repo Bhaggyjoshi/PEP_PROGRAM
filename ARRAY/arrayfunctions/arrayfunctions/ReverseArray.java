@@ -11,6 +11,7 @@ public class ReverseArray {
             arr[i] = sc.nextInt();
         }
         Reverse(arr);
+        sc.close();
     }
 
     public static void Reverse(int[] a) {

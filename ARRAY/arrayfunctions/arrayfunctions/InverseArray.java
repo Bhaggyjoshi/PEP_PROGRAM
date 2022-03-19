@@ -14,7 +14,7 @@ public class InverseArray {
             arr[i] = sc.nextInt();
         }
         Inverse(arr);
-
+        sc.close();
     }
     private static void Inverse(int[] a) {
         

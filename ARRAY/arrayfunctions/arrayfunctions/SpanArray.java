@@ -13,7 +13,7 @@ public class SpanArray {
         }
         int res = Span(arr);
         System.out.print(res);
-        
+        sc.close();
     }
     public static int Span(int[] array) {
         int ans = 0;
