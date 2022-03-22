@@ -10,13 +10,14 @@ public class RotateArray {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        int k = sc.nextInt();
-        int [] res = Rotate(arr, k);
+        // int k = sc.nextInt();
+        // int [] res = Rotate(arr, k);
+        sc.close();
     }
 
-    public static int[] Rotate(int[] a, int k) {
-        int 
-    }
+    // public static int[] Rotate(int[] a, int k) {
+        
+    // }
 
     public static int[] Reverse(int[] arr) {
         int left  = 0;

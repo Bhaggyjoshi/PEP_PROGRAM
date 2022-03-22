@@ -11,7 +11,7 @@ public class BarChart {
             arr[i] = scn.nextInt(); 
         }
         Bar(arr);
-
+        scn.close();
     }
 
     public static void Bar(int[] ans) {
