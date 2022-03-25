@@ -19,7 +19,7 @@ public class BinarySearch {
         int low = 0;
         int high = arr.length;
         while (low <= high) {
-            int mid = (low+high)/2;
+            int mid = low+(high-low)/2;
             if(arr[mid] == data){
                 return mid;
 
