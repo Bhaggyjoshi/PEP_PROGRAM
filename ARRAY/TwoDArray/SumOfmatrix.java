@@ -29,5 +29,6 @@ public class SumOfmatrix {
                 sum[i][j] = arr1[i][j]+arr2[i][j];
             }
         }
+        sc.close();
     }
 }

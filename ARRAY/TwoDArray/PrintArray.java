@@ -22,5 +22,6 @@ public class PrintArray {
                 System.out.println(arr[i][j]);
             }
         }
+        sc.close();
     }
 }

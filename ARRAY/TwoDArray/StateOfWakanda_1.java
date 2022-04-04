@@ -24,6 +24,7 @@ public class StateOfWakanda_1 {
                     System.out.println(mat[i][j]);
                 }
             }
+            sc.close();
         }
 }
 

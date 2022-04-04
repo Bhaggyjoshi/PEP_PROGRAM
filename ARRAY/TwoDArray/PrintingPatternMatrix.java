@@ -20,5 +20,6 @@ public class PrintingPatternMatrix {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

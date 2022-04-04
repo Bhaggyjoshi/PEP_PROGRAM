@@ -47,7 +47,7 @@ public class MatrixMultiple {
             }
         }
 
-        
+        sc.close();
          
     }
 }
