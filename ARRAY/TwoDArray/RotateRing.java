@@ -12,5 +12,7 @@ public class RotateRing {
                 mat[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
+
 }
