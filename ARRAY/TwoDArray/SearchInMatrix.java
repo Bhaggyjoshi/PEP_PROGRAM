@@ -20,7 +20,7 @@ public class SearchInMatrix {
             for (int j = 0; j < m; j++) {
                 if (mat[i][j]==data) {
                     System.out.println(i+ " "+j);
-                    break;
+                    return;
                 }
                 
             }
