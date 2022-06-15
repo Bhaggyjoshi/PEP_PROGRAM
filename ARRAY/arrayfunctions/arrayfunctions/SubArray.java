@@ -1,4 +1,4 @@
-package arrayfunctions;
+         package arrayfunctions;
 
 import java.util.Scanner;
 
