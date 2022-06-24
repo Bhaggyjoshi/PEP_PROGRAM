@@ -7,6 +7,8 @@ public class StringCompression {
 
         System.out.println(compression1(str));
         System.out.println(compression2(str));
+
+        scn.close();
     }
 
 
@@ -49,6 +51,7 @@ public class StringCompression {
             ans += count;
         }
         return ans;
+
 
         
     }
