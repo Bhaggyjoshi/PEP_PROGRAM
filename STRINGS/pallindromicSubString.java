@@ -1,6 +1,19 @@
 import java.util.Scanner;
 
 public class pallindromicSubString {
+    
+    public static boolean isPallindrom(String str, int left, int right) {
+       
+            while (left<right) {
+                if (str.charAt(left) != str.charAt(right)) {
+                    return false;
+                    
+                }  
+                left++;
+                right--; 
+            }
+            return true;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,16 +30,4 @@ public class pallindromicSubString {
         sc.close();
     }
 
-    public static boolean isPallindrom(String str, int left, int right) {
-       
-            while (left<right) {
-                if (str.charAt(left) != str.charAt(right)) {
-                    return false;
-                    
-                }  
-                left++;
-                right--; 
-            }
-            return true;
-    }
 }
