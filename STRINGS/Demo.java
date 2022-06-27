@@ -25,6 +25,20 @@ public class Demo {
 
         
 
+
+        // StingBuilder
+
+        // StringBuilder sb = new StringBuilder("hello");
+
+        // sb.charAt(index);
+        // sb.deleteCharAt(index);
+        // sb.append(s);
+        // sb.delete(start, end);
+        // sb.replace(start, end, str);
+        // sb.reverse();
+        // sb.setCharAt(index, ch);
+        // sb.toString();
+
         sc.close();
     }
 }
