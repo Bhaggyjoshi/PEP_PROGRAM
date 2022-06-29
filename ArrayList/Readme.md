@@ -1,7 +1,7 @@
 ArrayList => dynamically growing array
 
 Syntax =>>>
-ArrayList <Type> variable_name = new ArrayList<>();
+ArrayList <Type> variable_name = new ArrayList<>(size);
 
 inbuild methods
 
