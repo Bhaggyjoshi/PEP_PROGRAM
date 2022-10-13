@@ -1,0 +1,14 @@
+creation of Stack
+Stack <Integer> st = new Stack<>();
+
+Adding element in the Stack
+st.push(ele);
+
+get,ting top most element 
+st.peek();
+
+removing element
+st.pop()
+
+get the size of Stack
+st.size()
