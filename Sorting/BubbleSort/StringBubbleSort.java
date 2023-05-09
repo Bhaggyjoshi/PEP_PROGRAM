@@ -30,5 +30,6 @@ public class StringBubbleSort {
             System.out.println(str[i]);
         }
 
+        scn.close();
     }
 }
